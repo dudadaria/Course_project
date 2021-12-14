@@ -1,0 +1,17 @@
+{
+  "name": "saloon",
+  "version": "1.0.0",
+  "description": "Beauty saloon web",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Darya",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.65.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.3"
+  }
+}

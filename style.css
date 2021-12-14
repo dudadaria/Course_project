@@ -749,7 +749,15 @@ a {
     }
 }
 .proprietary__image__link:hover {
-    width: 194px;
-    height: 321px;
+    width: 407px;
+    height: 676px;
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 640px) {
+    .proprietary__image__link:hover {
+        width: 194px;
+        height: 321px;
+        transform: scale(1.2);
+    }
 }

@@ -237,12 +237,12 @@ a {
     }
 }
 
-.cover__block-text__table {
+.cover__block-text__tablet {
     display: none;
 }
 
 @media screen and (max-width: 640px) {
-    .cover__block-text__table {
+    .cover__block-text__tablet {
         display: block;
         width: 365px;
         height: 80px;
@@ -860,12 +860,12 @@ a {
 }
 
 
-.stock__block-image-table {
+.stock__block-image-tablet {
     display: none;
 }
 
 @media screen and (max-width: 640px) {
-    .stock__block-image-table {
+    .stock__block-image-tablet {
         display: flex;
         width: 290px;
         height: 290px;

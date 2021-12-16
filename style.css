@@ -433,7 +433,7 @@ a {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-top: 70px;
-    margin-left: 26.12%;
+    margin-left: 38.59%;;
 }
 
 @media screen and (max-width: 640px) {
@@ -1034,4 +1034,140 @@ a {
     .form__submit {
         margin-left: 12px;
     }
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contacts {
+    display: flex;
+    height: 558px;
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts {
+        display: flex;
+        flex-flow: wrap;
+        height: 897px;
+    }
+}
+
+.col1 {
+    order: 2;
+}
+
+.maps {
+    width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .maps {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 44px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts-text {
+        margin-left: 24px;
+        height: 50%;
+    }
+}
+
+.contacts-text__big {
+    font-family: 'Montserrat-400', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
+    color: #101010;
+    margin-top: 130px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts-text__big {
+        font-size: 44px;
+        line-height: 54px;
+        margin-top: 97px;
+    }
+}
+
+.contacts_block {
+    display: flex;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts_block {
+        margin-top: 40px;
+    }
+}
+
+.contacts_block-icon {
+    align-self: start;
+}
+
+.contacts_block_address {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contacts-text__address {
+    font-family: 'Montserrat-400', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #101010;
+}
+
+.contacts__number {
+    font-family: 'Montserrat-700', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #101010;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts__number {
+        margin-top: 15px;
+    }
+}
+
+.insta {
+    font-family: 'Montserrat-400', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #101010;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 640px) {
+    .insta {
+        margin-top: 35px;
+    }
+}
+
+.insta:hover {
+    text-decoration: underline;
 }

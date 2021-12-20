@@ -67,7 +67,7 @@
     }
 }
 
-.photo_salon {
+.cover__photo_salon {
     display: flex;
     background-color: #FFFAE6;
     border: 1px solid #FFFAE6;
@@ -78,8 +78,9 @@
 }
 
 @media screen and (max-width: 640px) {
-    .photo_salon   {
-        margin: 0 87px;
+    .cover__photo_salon   {
+        margin: 0;
+        width: 206px;
 
     }
 }
@@ -94,10 +95,21 @@
     flex-direction: column;
 }
 
+@media screen and (max-width: 640px) {
+    .cover__block-image  {
+        align-self: self-end;
+    }
+}
+
 .cover__block-pic-position {
     align-self: end;
     position: absolute;
     z-index: 1;
+}
+@media screen and (max-width: 640px) {
+    .cover__block-pic-position {
+
+    }
 }
 
 .cover__block-pic {
@@ -110,7 +122,8 @@
     .cover__block-pic {
         width: 135px;
         height: 135px;
-        margin-top: 103px;
+        margin-top: -21px;
+        margin-right: -48px;
     }
 }
 
@@ -172,6 +185,12 @@
     margin-top: 15px;
 }
 
+.photo_salon {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .photo_salon__image_salon {
     font-family: 'Montserrat-400', sans-serif;
     font-style: normal;
@@ -189,13 +208,14 @@
         font-size: 44px;
         line-height: 54px;
         margin-left: 20px;
+        margin-top: 80px;
     }
 }
 
 .photo_salon-overflow {
     display: flex;
     overflow-x: scroll;
-    margin-top: 70px;
+    margin: 70px 87px 0;
 }
 
 @media screen and (max-width: 640px) {
@@ -224,7 +244,7 @@
 
 @media screen and (max-width: 640px) {
     .specialists {
-        margin: 0 23px;
+        margin: 0;
     }
 }
 
@@ -232,6 +252,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 640px) {
+    .specialists__position {
+        margin-left: 23px;
+    }
 }
 
 .specialists__text-big {
@@ -318,6 +344,13 @@
     margin-top: 25px;
 }
 
+@media screen and (max-width: 640px) {
+    .butt-about_master{
+        width: 290px;
+        height: 46px;
+    }
+}
+
 .specialists__butt-sign-up {
     width: 361.61px;
     height: 38px;
@@ -334,6 +367,14 @@
     margin-right: 12.5%;
 }
 
+@media screen and (max-width: 640px) {
+    .specialists__butt-sign-up {
+        width: 290px;
+        height: 46px;
+    }
+}
+
+
 .specialists__butt-sign-up:hover {
     background-color: #D0202A;
     color: #FFFFFF;
@@ -341,4 +382,10 @@
 
 .mgt-130 {
     margin-top: 130px;
+}
+
+@media screen and (max-width: 640px) {
+    .mgt-130  {
+        margin-top: auto;
+    }
 }

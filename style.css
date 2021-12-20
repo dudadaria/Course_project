@@ -282,7 +282,7 @@ a {
     }
 }
 
-.butt-discount {
+.butt-discount__about_us {
     width: 365px;
     height: 50px;
     background: #D0202A;
@@ -295,10 +295,19 @@ a {
     color: #FFFFFF;
 }
 
-.butt-discount:hover{
+.butt-discount__about_us:hover{
     background: #FFFFFF;
     border-color: #FFFFFF;
     color: #D0202A;
+}
+
+@media screen and (max-width: 640px) {
+    .butt-discount__about_us {
+        width: 259px;
+        height: 50px;
+        text-align: center;
+        padding: 10px 48px;
+    }
 }
 
 .cover__block-info__border {
